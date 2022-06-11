@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(#E4F9EA, #8BCF9E);
+    height: 100vh;
+    color: #858181;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.container {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    margin-top: 2em;
+    background: #FE0202;
+    width: 10em;
+    height: 10em;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 900;
+    font-size: 1.25rem;
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+
+@media (min-width:500px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1.75rem;
+    }
+}
